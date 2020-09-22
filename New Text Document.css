@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+
+h3 {
+    font-size: 8rem;
+    margin: 0 auto;
+    text-align: center;
+    background: -webkit-radial-gradient(yellow, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background-image: linear-gradient(120deg, rgb(84, 145, 180), rgb(5, 110, 209));
+}
